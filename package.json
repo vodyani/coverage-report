@@ -1,0 +1,52 @@
+{
+  "name": "@vodyani/coverage-report",
+  "license": "MIT",
+  "version": "0.0.0",
+  "author": "ChoGathK",
+  "description": "During `jest` testing, it was used to generate `mochawesome` compliant json formatted reports.",
+  "homepage": "https://github.com/vodyani/coverage-report#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vodyani/coverage-report.git"
+  },
+  "keywords": [
+    "vodyani",
+    "javascript",
+    "npm-package",
+    "jest",
+    "mocha",
+    "report",
+    "coverage",
+    "coverage-report"
+  ],
+  "bugs": {
+    "url": "https://github.com/vodyani/coverage-report/issues"
+  },
+  "files": [
+    "package.json",
+    "README.MD",
+    "LICENSE",
+    "index.js",
+    "dist"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm i && npx husky install",
+    "version:patch": "npm version patch && npm run version:tag && npm run version:commit",
+    "version:minor": "npm version minor && npm run version:tag && npm run version:commit",
+    "version:major": "npm version major && npm run version:tag && npm run version:commit",
+    "version:tag": "git tag -a \"$npm_package_version\" -m \"$npm_package_version\"",
+    "version:commit": "git add . && git commit -m \"chore(publish): publish v$npm_package_version\""
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "7.0.4",
+    "typescript": "^4.6.2"
+  }
+}
