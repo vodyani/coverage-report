@@ -31,12 +31,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "install:all": "npm i && npx husky install",
-    "version:patch": "npm version patch && npm run version:tag && npm run version:commit",
-    "version:minor": "npm version minor && npm run version:tag && npm run version:commit",
-    "version:major": "npm version major && npm run version:tag && npm run version:commit",
-    "version:tag": "git tag -a \"$npm_package_version\" -m \"$npm_package_version\"",
-    "version:commit": "git add . && git commit -m \"chore(publish): publish v$npm_package_version\""
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "install:all": "npm i && npx husky install"
   },
   "commitlint": {
     "extends": [
