@@ -31,9 +31,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "patch": "npm version patch",
-    "minor": "npm version minor",
-    "major": "npm version major",
+    "patch": "npm version patch && git push",
+    "minor": "npm version minor && git push",
+    "major": "npm version major && git push",
     "install:all": "npm i && npx husky install"
   },
   "commitlint": {
