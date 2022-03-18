@@ -16,7 +16,7 @@ npm install --save-dev @vodyani/coverage-report
 
 ## Usage
 
-**Typically, I would add the testResultsProcessor property stated in `JEST` to with the `CI/CD` execution and pass it in to take effect.**
+Typically, I would add the testResultsProcessor property stated in `JEST` to with the `CI/CD` execution and pass it in to take effect.
 
 First, you should define the test commands in the `package.json` file beforehand.
 
@@ -35,7 +35,7 @@ And
 npm run test --ci --testResultsProcessor="@vodyani/coverage-report"
 ```
 
-### Output
+**Output**
 
 The reporter writes to `report.json` by default. The `JEST_REPORT_JSON` environment variable can be used to alter the file name.
 
@@ -44,6 +44,10 @@ Just like this.
 ```sh
 JEST_REPORT_JSON="./coverage/report.json" npm run test:coverage --ci --testResultsProcessor="@vodyani/coverage-report"
 ```
+
+**Example**
+
+[*Click here to view an example of github activities in action.*](https://github.com/vodyani/workflows/blob/8aab8360f0566cb42d3ff9bcfd94e5ed4ef4b6f3/.github/workflows/publish-codecov.yml#L39)
 
 ## Contributing
 
