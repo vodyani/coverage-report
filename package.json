@@ -1,7 +1,7 @@
 {
   "name": "@vodyani/coverage-report",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ChoGathK",
   "description": "During `jest` testing, it was used to generate `mochawesome` compliant json formatted reports.",
   "homepage": "https://github.com/vodyani/coverage-report#readme",
@@ -42,8 +42,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
     "husky": "7.0.4"
   }
 }
