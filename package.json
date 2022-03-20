@@ -26,8 +26,7 @@
     "package.json",
     "README.MD",
     "LICENSE",
-    "index.js",
-    "dist"
+    "index.js"
   ],
   "main": "index.js",
   "scripts": {
