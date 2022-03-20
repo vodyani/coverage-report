@@ -1,7 +1,7 @@
 {
   "name": "@vodyani/coverage-report",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "ChoGathK",
   "description": "During `jest` testing, it was used to generate `mochawesome` compliant json formatted reports.",
   "homepage": "https://github.com/vodyani/coverage-report#readme",
