@@ -1,6 +1,6 @@
 # Vodyani coverage-report
 
-*During `jest` testing, it was used to generate `mochawesome` compliant json formatted reports.*
+*📚 During jest testing, it was used to generate mochawesome compliant json formatted reports.*
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/coverage-report)](https://www.npmjs.com/package/@vodyani/coverage-report)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/coverage-report)](https://www.npmjs.com/package/@vodyani/coverage-report)

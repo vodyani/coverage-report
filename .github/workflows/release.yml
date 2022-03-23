@@ -2,7 +2,7 @@ name: "release"
 
 on:
   push:
-    branches: [release]
+    branches: [master]
 
 jobs:
   publish_package:
@@ -18,11 +18,3 @@ jobs:
     secrets:
       GITHUB_CI_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  auto_merge:
-    needs: [publish_release]
-    uses: vodyani/workflows/.github/workflows/auto-merge.yml@master
-    secrets:
-      GITHUB_CI_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    with:
-      source_branch: "release"
-      target_branch: "master"
