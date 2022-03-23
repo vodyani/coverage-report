@@ -3,7 +3,7 @@
   "license": "MIT",
   "version": "1.0.6",
   "author": "ChoGathK",
-  "description": "During `jest` testing, it was used to generate `mochawesome` compliant json formatted reports.",
+  "description": "📚 During jest testing, it was used to generate mochawesome compliant json formatted reports.",
   "homepage": "https://github.com/vodyani/coverage-report#readme",
   "repository": {
     "type": "git",
