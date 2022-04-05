@@ -49,18 +49,6 @@ JEST_REPORT_JSON="./coverage/report.json" npm run test:coverage --ci --testResul
 
 [*Click here to view an example of github activities in action.*](https://github.com/vodyani/workflows/blob/8aab8360f0566cb42d3ff9bcfd94e5ed4ef4b6f3/.github/workflows/publish-codecov.yml#L39)
 
-## Contributing
-
-- ❤ building
-
-## **Donations**
-
-- ❤ building
-
-## Links
-
-- ❤ building
-
 ## License
 
 Vodyani coverage-report is [MIT licensed](LICENSE).
